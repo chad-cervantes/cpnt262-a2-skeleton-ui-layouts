@@ -1,10 +1,8 @@
 <script>
-  import Header from "../../lib/components/Header.svelte";
-  import Footer from "../../lib/components/Footer.svelte";
   import { AppShell } from "@skeletonlabs/skeleton";
 </script>
 
-<Header />
+
 
 
 <AppShell>
@@ -71,5 +69,5 @@
 	<slot />
 </AppShell>
 
-<Footer />
+
 

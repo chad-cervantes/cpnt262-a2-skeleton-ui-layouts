@@ -2,14 +2,9 @@
 
 <script>
   import '../app.postcss';
-	import Footer from '../lib/components/Footer.svelte';
-  import Header from '../lib/components/Header.svelte';
 	import '../routes/Home/+page.svelte';
 	import '../routes/Gallery/+page.svelte';
 </script>
-
-<Header />
-<Footer />
 
 
 <!-- <div class="container h-full mx-auto flex justify-center items-center">
