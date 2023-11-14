@@ -4,6 +4,8 @@
   import '../app.postcss';
 	import '../routes/Home/+page.svelte';
 	import '../routes/Gallery/+page.svelte';
+	import '../routes/History/+page.svelte';
+	import '../routes/About/+page.svelte';
 </script>
 
 
