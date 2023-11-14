@@ -1,6 +1,15 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
-<div class="container h-full mx-auto flex justify-center items-center">
+<script>
+  import '../app.postcss';
+  import Header from '../lib/components/Header.svelte';
+	
+</script>
+
+<Header />
+
+
+<!-- <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
 		<h1 class="h1">Let's get cracking bones!</h1>
 		<p>Start by exploring:</p>
@@ -12,4 +21,4 @@
 			</li>
 		</ul>
 	</div>
-</div>
+</div> -->
