@@ -38,7 +38,8 @@
         </a>
       </li>
      
-      <li><a
+      <li>
+        <a
           class="btn btn-sm variant-ghost-surface"
           href="/Contact"
         >
@@ -67,6 +68,5 @@
 
 	<slot />
  
-  <svelte:fragment slot="footer">&copy; Chad Cervantes</svelte:fragment>
  
 </AppShell>
