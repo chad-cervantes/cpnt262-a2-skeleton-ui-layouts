@@ -8,10 +8,9 @@
 
 
 <AppShell>
-	<svelte:fragment slot="header">Header</svelte:fragment>
+	<svelte:fragment slot="header">Home</svelte:fragment>
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
-	<svelte:fragment slot="pageHeader">Page Header</svelte:fragment>
 	<!-- Router Slot -->
 	<slot />
 </AppShell>
