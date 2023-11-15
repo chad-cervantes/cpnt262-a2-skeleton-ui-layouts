@@ -5,7 +5,7 @@
 
 <AppShell>
 	<svelte:fragment slot="header">
-    <div class="text-center text-5xl p-4">
+    <div class="text-center text-5xl p-4  bg-primary-400 text-secondary-900">
       About
     </div>
   </svelte:fragment>
