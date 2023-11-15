@@ -34,11 +34,6 @@
             History
           </a>
         </li>
-        <li>
-          <a class="btn btn-sm variant-ghost-surface" href="/Gallery" >
-            Gallery
-          </a>
-        </li>
         <LightSwitch class="mt-1"/>
       </ul>
     </nav>  
