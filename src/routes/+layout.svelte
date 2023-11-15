@@ -1,11 +1,110 @@
 <script>
 	import '../app.postcss';
-	import Header from '../lib/components/Header.svelte';
-	import Footer from '../lib/components/Footer.svelte';
-	import PageFooter from '../lib/components/PageFooter.svelte';
+	import { AppShell, AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
+	// import Header from '../lib/components/Header.svelte';
+	// import Footer from '../lib/components/Footer.svelte';
+	// import PageFooter from '../lib/components/PageFooter.svelte';
 </script>
 
-<Header />
+<!-- App Shell -->
+<AppShell>
+<svelte:fragment slot="header">
+	<!-- App Bar -->
+	<AppBar gridColumns="grid-cols-1">
+	<div class="lg:flex justify-between gap-4 p-4">
+		<div>
+			<span class="flex items-center">
+					<Avatar src="https://images.unsplash.com/photo-1617296538902-887900d9b592?ixid=M3w0Njc5ODF8MHwxfGFsbHx8fHx8fHx8fDE2ODc5NzExMDB8&ixlib=rb-4.0.3&w=128&h=128&auto=format&fit=crop" width="w-10" height="h-10" rounded="rounded-full" />
+				<div>
+					<span class="text-xl p-1 block">Day of the Dead</span>
+				</div> 
+			</span>
+		</div>
+		<nav>
+		<ul class="lg:flex list-none gap-4">
+			<li>  
+				<a class="btn btn-sm variant-ghost-surface" href="/Home">
+					Home
+				</a>
+			</li>
+			<li>  
+				<a class="btn btn-sm variant-ghost-surface" href="/Blog">
+					Blog
+				</a>
+			</li>
+			<li>  
+				<a class="btn btn-sm variant-ghost-surface" href="/About">
+					About
+				</a>
+			</li>
+			<li>
+				<a class="btn btn-sm variant-ghost-surface" href="/History">
+					History
+				</a>
+			</li>
+			<LightSwitch class="mt-1"/>
+		</ul>
+	</nav>  
+</div>      
+			
+		<!-- </svelte:fragment> -->
+	</AppBar>
+</svelte:fragment>
+<!-- Page Route Content -->
+
 <slot />
-<PageFooter />
-<Footer />
+<svelte:fragment slot="pageFooter">
+    <div class="lg:flex justify-center p-4">
+      <nav>
+        <ul class="flex justify-center list-none gap-4">
+          <li>  
+            <a
+              class="btn btn-sm variant-ghost-surface"
+              href="/Home"
+            >
+              Home
+            </a>
+          </li>
+          <li>  
+            <a
+              class="btn btn-sm variant-ghost-surface"
+              href="/Blog"
+            >
+              Blog
+            </a>
+          </li>
+          <li>  
+            <a
+              class="btn btn-sm variant-ghost-surface"
+              href="/About"
+            >
+              About
+            </a>
+          </li>
+         
+          <li>
+            <a
+              class="btn btn-sm variant-ghost-surface"
+              href="/History"
+            >
+              History
+            </a>
+          </li>
+        </ul>
+      </nav>  
+    </div>      
+           
+
+  </svelte:fragment>
+	<svelte:fragment slot="footer">
+	<div class="lg:flex justify-center text-center p-4">
+		&copy; 2023 Chad Cervantes
+	</div>
+</svelte:fragment>
+
+</AppShell>
+
+<!-- <Header /> -->
+<!-- <slot /> -->
+<!-- <PageFooter /> -->
+<!-- <Footer /> -->
