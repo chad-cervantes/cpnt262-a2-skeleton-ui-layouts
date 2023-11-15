@@ -15,7 +15,7 @@
 			Day of The Dead
 		</div>
 	</svelte:fragment>
-	<div class="m-auto p-4 flex align-center">
+	<div class="m-auto p-4 w-full lg:flex justify-center items-centerr">
 		<img src="/images/day-of-the-dead-wikipedia.jpg" alt=""/>
 	</div>
 	<!-- (sidebarLeft) -->
