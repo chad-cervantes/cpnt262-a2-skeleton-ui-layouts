@@ -11,9 +11,9 @@
 	<slot />
 	<!-- ---- / ---- -->
 	<svelte:fragment slot="pageFooter">
-    <div class="flex justify-center p-4">
+    <div class="lg:flex justify-center p-4">
       <nav>
-        <ul class="lg:flex list-none gap-4">
+        <ul class="flex justify-center list-none gap-4">
           <li>  
             <a
               class="btn btn-sm variant-ghost-surface"
