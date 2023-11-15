@@ -25,6 +25,14 @@
           <li>  
             <a
               class="btn btn-sm variant-ghost-surface"
+              href="/Blog"
+            >
+              Blog
+            </a>
+          </li>
+          <li>  
+            <a
+              class="btn btn-sm variant-ghost-surface"
               href="/About"
             >
               About
