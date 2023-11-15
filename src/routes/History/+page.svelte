@@ -1,13 +1,14 @@
-<script>
+<!-- <script>
   import { AppShell } from "@skeletonlabs/skeleton";
-</script>
+</script> -->
 
 
-<AppShell>
-	<svelte:fragment slot="header">
-    <div class="text-center text-5xl p-4  bg-primary-400 text-secondary-900">
+<!-- <AppShell> -->
+	<!-- <svelte:fragment slot="header"> -->
+    <h1 class="text-center text-5xl p-4  bg-primary-400 text-secondary-900">
       History
-    </div></svelte:fragment>
+    </h1>
+  <!-- </svelte:fragment> -->
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
 	<!-- (pageHeader) -->
@@ -24,8 +25,8 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora doloribus, necessitatibus molestiae, illo atque voluptas sunt repellat doloremque iure excepturi. Tenetur obcaecati ex quasi, delectus aliquam dolor expedita hic.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora doloribus, necessitatibus molestiae, illo atque voluptas sunt repellat doloremque iure excepturi. Tenetur obcaecati ex quasi, delectus aliquam dolor expedita hic.</p>
   </div>
-	<slot />
+	<!-- <slot /> -->
 	<!-- ---- / ---- -->
 	<!-- (pageFooter) -->
 	<!-- (footer) -->
-</AppShell>
+<!-- </AppShell> -->
