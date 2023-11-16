@@ -1,5 +1,7 @@
 <script>
   import { AppShell } from '@skeletonlabs/skeleton';
+  import { ListBox, ListBoxItem } from '@skeletonlabs/skeleton';
+  let valueSingle = 'books';
 </script>
 
 
@@ -11,12 +13,20 @@
   </svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
     <div class="p-4">
-     <ul class="p-4">
+      <h1 class="text-center text-2xl p-4">Categories</h1>
+      <ListBox>
+        <ListBoxItem bind:group={valueSingle} name="medium" value="books">Costumes</ListBoxItem>
+        <ListBoxItem bind:group={valueSingle} name="medium" value="movies">Decorations</ListBoxItem>
+        <ListBoxItem bind:group={valueSingle} name="medium" value="tv">Themes</ListBoxItem>
+        <ListBoxItem bind:group={valueSingle} name="medium" value="mobile">Colors</ListBoxItem>
+      </ListBox>
+			
+     <!-- <ul class="p-4">
       <li>Costumes</li>
       <li>Decorations</li>
       <li>Themes</li>
       <li>Colors</li>
-     </ul>
+     </ul> -->
     </div>
  </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment>
