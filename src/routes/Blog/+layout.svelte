@@ -12,7 +12,7 @@
     </div>
   </svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
-    <div class="p-4">
+    <div class="overflow-x-hidden overflow-y-auto p-4">
       <h1 class="text-center text-2xl p-4">Categories</h1>
       <ListBox>
         <ListBoxItem bind:group={valueSingle} name="medium" value="books">Costumes</ListBoxItem>
@@ -20,14 +20,14 @@
         <ListBoxItem bind:group={valueSingle} name="medium" value="tv">Themes</ListBoxItem>
         <ListBoxItem bind:group={valueSingle} name="medium" value="mobile">Colors</ListBoxItem>
       </ListBox>
-			
+		</div>	
      <!-- <ul class="p-4">
       <li>Costumes</li>
       <li>Decorations</li>
       <li>Themes</li>
       <li>Colors</li>
      </ul> -->
-    </div>
+ 
  </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment>
 	<svelte:fragment slot="pageHeader">
