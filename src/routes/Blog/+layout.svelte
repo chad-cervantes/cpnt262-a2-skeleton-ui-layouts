@@ -9,7 +9,16 @@
       Blog
     </div>
   </svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment>
+	<svelte:fragment slot="sidebarLeft">
+    <div class="p-4">
+     <ul class="p-4">
+      <li>Costumes</li>
+      <li>Decorations</li>
+      <li>Themes</li>
+      <li>Colors</li>
+     </ul>
+    </div>
+ </svelte:fragment>
 	<svelte:fragment slot="sidebarRight">Sidebar Right</svelte:fragment>
 	<svelte:fragment slot="pageHeader">
     <div class="text-2xl text-center p-4">
