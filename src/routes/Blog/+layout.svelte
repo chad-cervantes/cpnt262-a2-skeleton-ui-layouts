@@ -6,7 +6,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
     <div class="text-5xl text-center p-4">
-      Blog
+      Lorem Ipsum
     </div>
   </svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
