@@ -1,7 +1,7 @@
 <script>
 	import '../app.postcss';
 	import { AppShell, AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
-	import Custom from '../lib/components/Custom.svelte';;
+	import Custom from '../lib/components/Custom.svelte';
 	// import Header from '../lib/components/Header.svelte';
 	// import Footer from '../lib/components/Footer.svelte';
 	// import PageFooter from '../lib/components/PageFooter.svelte';
