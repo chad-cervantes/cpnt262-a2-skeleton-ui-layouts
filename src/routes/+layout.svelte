@@ -1,6 +1,7 @@
 <script>
 	import '../app.postcss';
 	import { AppShell, AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
+	import Custom from '../lib/components/Custom.svelte';;
 	// import Header from '../lib/components/Header.svelte';
 	// import Footer from '../lib/components/Footer.svelte';
 	// import PageFooter from '../lib/components/PageFooter.svelte';
@@ -53,6 +54,7 @@
 <!-- Page Route Content -->
 
 <slot />
+<Custom />
 <svelte:fragment slot="pageFooter">
     <div class="lg:flex justify-center p-4">
       <nav>
