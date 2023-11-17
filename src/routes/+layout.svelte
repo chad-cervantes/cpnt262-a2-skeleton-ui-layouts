@@ -1,9 +1,6 @@
 <script>
 	import '../app.postcss';
 	import { AppShell, AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
-	// import Header from '../lib/components/Header.svelte';
-	// import Footer from '../lib/components/Footer.svelte';
-	// import PageFooter from '../lib/components/PageFooter.svelte';
 </script>
 
 <!-- App Shell -->
@@ -46,11 +43,8 @@
 			</ul>
 		</nav> 	
 	</div>      
-			
-		<!-- </svelte:fragment> -->
 	</AppBar>
 </svelte:fragment>
-<!-- Page Route Content -->
 
 <slot />
 
@@ -94,18 +88,10 @@
         </ul>
       </nav>  
     </div>      
-           
-
-  </svelte:fragment>
+    </svelte:fragment>
 	<svelte:fragment slot="footer">
 	<div class="lg:flex justify-center text-center p-4">
 		&copy; 2023 Chad Cervantes
 	</div>
 </svelte:fragment>
-
 </AppShell>
-
-<!-- <Header /> -->
-<!-- <slot /> -->
-<!-- <PageFooter /> -->
-<!-- <Footer /> -->
