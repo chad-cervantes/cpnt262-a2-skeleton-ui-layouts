@@ -12,7 +12,7 @@
     </div>
   </svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
-    <div class="sm:text-sm overflow-x-hidden overflow-y-auto p-4 w-[85%] m-auto">
+    <div class="sm:text-sm overflow-x-hidden overflow-y-auto p-4 m-auto bg-red-600">
       <h1 class="text-center text-2xl p-4">Categories</h1>
       <ListBox>
         <ListBoxItem bind:group={valueSingle} name="medium" value="books">Costumes</ListBoxItem>
