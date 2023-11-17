@@ -1,9 +1,11 @@
 <script>
+  //imported Card.svelte and card object array
   import Card from "../../lib/components/Card.svelte";
   
   import {cardInfo} from "$lib/data.js";
 </script>
 
+<!--List Scroll of Blog Categories-->
 <h3 class="text-center text-2xl p-4">List of Blog Categories</h3>
   <div class="w-[50%] m-auto p-4">
   <select class="select" size="4" value="1">
@@ -15,6 +17,7 @@
   </select>
   </div>	
 
+<!--for each loop to make multiple cards-->
 <section class="lg:grid grid-cols-2">
   {#each cardInfo as card}
     <Card {...card} />
