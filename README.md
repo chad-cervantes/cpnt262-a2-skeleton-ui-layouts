@@ -7,7 +7,7 @@
 ### Attributions
 
 - [Hero-section image](https://en.wikipedia.org/wiki/Day_of_the_Dead#/media/File:Posada2.Catrina.jpeg)
-- The layout code was borrowed from Skeleton UI 
+- Some code was borrowed from Skeleton UI 
 - Classmates & Instructors
   - Ashlyn (instructor)
 
