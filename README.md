@@ -13,6 +13,8 @@
 
 ### Live Deployed Site (Netlify)
 
+- [cpnt262-a2-skeleton-ui-layouts](https://cpnt262-a2-skeleton-ui-layouts.netlify.app/)
+
 ### Search Notes
 
 - I had to figure out how to make a second layout for one page.
