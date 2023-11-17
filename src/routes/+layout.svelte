@@ -24,22 +24,22 @@
 			<nav>
 			<ul class="lg:flex flex-end list-none gap-3">
 				<li>  
-					<a class="btn btn-sm variant-ghost-surface border-token" href="/Home">
+					<a class="btn btn-sm bg-gradient-to-br variant-gradient-primary-secondary border-token" href="/Home">
 						Home
 					</a>
 				</li>
 				<li>  
-					<a class="btn btn-sm variant-ghost-surface border-token" href="/Blog">
+					<a class="btn btn-sm btn-sm bg-gradient-to-br variant-gradient-primary-secondary border-token" href="/Blog">
 						Blog
 					</a>
 				</li>
 				<li>  
-					<a class="btn btn-sm variant-ghost-surface border-token" href="/About">
+					<a class="btn btn-sm btn-sm bg-gradient-to-br variant-gradient-primary-secondary border-token" href="/About">
 						About
 					</a>
 				</li>
 				<li>
-					<a class="btn btn-sm variant-ghost-surface border-token" href="/History">
+					<a class="btn btn-sm btn-sm bg-gradient-to-br variant-gradient-primary-secondary border-token" href="/History">
 						History
 					</a>
 				</li>	
@@ -61,7 +61,7 @@
         <ul class="flex justify-center list-none gap-4">
           <li>  
             <a
-              class="btn btn-sm variant-ghost-surface"
+              class="btn btn-sm variant-ghost-surface border-token"
               href="/Home"
             >
               Home
@@ -69,7 +69,7 @@
           </li>
           <li>  
             <a
-              class="btn btn-sm variant-ghost-surface"
+              class="btn btn-sm variant-ghost-surface border-token"
               href="/Blog"
             >
               Blog
@@ -77,7 +77,7 @@
           </li>
           <li>  
             <a
-              class="btn btn-sm variant-ghost-surface"
+              class="btn btn-sm variant-ghost-surface border-token"
               href="/About"
             >
               About
@@ -86,7 +86,7 @@
          
           <li>
             <a
-              class="btn btn-sm variant-ghost-surface"
+              class="btn btn-sm variant-ghost-surface border-token"
               href="/History"
             >
               History
