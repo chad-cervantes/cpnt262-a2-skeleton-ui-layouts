@@ -8,6 +8,7 @@
 
 - [Hero-section image](https://en.wikipedia.org/wiki/Day_of_the_Dead#/media/File:Posada2.Catrina.jpeg)
 - Some code was borrowed from Skeleton UI 
+- The avatar was from Skeleton UI
 - Classmates & Instructors
   - Ashlyn (instructor)
 
