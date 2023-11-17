@@ -15,7 +15,7 @@ let lists = [
 	{/each}
 </section>
 
-<h3 class="text-center text-2xl">List</h3>
+<h3 class="text-center text-2xl">List of Items</h3>
 <div class="w-[50%] m-auto">
 <select class="select" size="4" value="1">
 	<option value="1">{lists.title}</option>
